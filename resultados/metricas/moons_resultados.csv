@@ -1,0 +1,4 @@
+Dataset,Algoritmo,Hiperparámetros,Clusters,Ruido,ARI,V-medida,Silueta,Davies-Bouldin
+Moons,K-means,"n_clusters=2, n_init=10, random_state=42",2,0,0.2647828310668119,0.20169775748715496,0.48254929920930023,0.789142501271447
+Moons,DBSCAN,"eps=0.2, min_samples=5",2,0,1.0,1.0,0.32744389724050826,1.1558314675497603
+Moons,Spectral,"n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",2,0,1.0,1.0,0.32744389724050826,1.1558314675497603

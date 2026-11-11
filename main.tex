@@ -1,0 +1,17 @@
+\documentclass[a4paper]{article}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{eso-pic}
+\pagestyle{empty}
+\begin{document}
+\includepdf[pages=1-33]{compilacion/Informe_Actividad_04_base.pdf}
+\includepdf[pages=34,pagecommand={%
+  \AddToShipoutPictureFG*{\AtPageLowerLeft{%
+    \put(78.637bp,377.034bp){\fontsize{10.9091bp}{15.31bp}\selectfont
+      El cuaderno y el informe de la actividad est\'an disponibles en el repositorio GitHub.}%
+    \put(78.637bp,361.724bp){\fontsize{10.9091bp}{15.31bp}\selectfont
+      \url{https://github.com/Miguel7293/Actividad04_Clustering}}%
+  }}%
+}]{compilacion/Informe_Actividad_04_base.pdf}
+\includepdf[pages=35-]{compilacion/Informe_Actividad_04_base.pdf}
+\end{document}

@@ -1,0 +1,4 @@
+Dataset,Algoritmo,Hiperparámetros,Clusters,Ruido,ARI,V-medida,Silueta,Davies-Bouldin
+Circles,K-means,"n_clusters=2, n_init=10, random_state=42",2,0,-0.0016046223301394782,0.00028906797830256055,0.32832662680124525,1.221267546808435
+Circles,DBSCAN,"eps=0.2, min_samples=5",2,0,1.0,1.0,0.15185052272923294,128.94547604203117
+Circles,Spectral,"n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",2,0,1.0,1.0,0.15185052272923294,128.94547604203117

@@ -1,0 +1,101 @@
+[
+  {
+    "Dataset": "Iris",
+    "Algoritmo": "K-means",
+    "Hiperparámetros": "n_clusters=3, n_init=10, random_state=42",
+    "Clusters": 3,
+    "Ruido": 0,
+    "ARI": 0.6201351808870379,
+    "V-medida": 0.659486892724918,
+    "Silueta": 0.45994823920518635,
+    "Davies-Bouldin": 0.8335949464754338
+  },
+  {
+    "Dataset": "Iris",
+    "Algoritmo": "DBSCAN",
+    "Hiperparámetros": "eps=0.7, min_samples=5",
+    "Clusters": 2,
+    "Ruido": 6,
+    "ARI": 0.5400773829118303,
+    "V-medida": 0.6711651834574572,
+    "Silueta": 0.6017954437722106,
+    "Davies-Bouldin": 0.5568373608128201
+  },
+  {
+    "Dataset": "Iris",
+    "Algoritmo": "Spectral",
+    "Hiperparámetros": "n_clusters=3, affinity=rbf, gamma=2.0",
+    "Clusters": 3,
+    "Ruido": 0,
+    "ARI": 0.5637510205230709,
+    "V-medida": 0.7174643320814477,
+    "Silueta": 0.49486290250095627,
+    "Davies-Bouldin": 0.5344024833668791
+  },
+  {
+    "Dataset": "Moons",
+    "Algoritmo": "K-means",
+    "Hiperparámetros": "n_clusters=2, n_init=10, random_state=42",
+    "Clusters": 2,
+    "Ruido": 0,
+    "ARI": 0.2647828310668119,
+    "V-medida": 0.20169775748715496,
+    "Silueta": 0.48254929920930023,
+    "Davies-Bouldin": 0.789142501271447
+  },
+  {
+    "Dataset": "Moons",
+    "Algoritmo": "DBSCAN",
+    "Hiperparámetros": "eps=0.2, min_samples=5",
+    "Clusters": 2,
+    "Ruido": 0,
+    "ARI": 1.0,
+    "V-medida": 1.0,
+    "Silueta": 0.32744389724050826,
+    "Davies-Bouldin": 1.1558314675497603
+  },
+  {
+    "Dataset": "Moons",
+    "Algoritmo": "Spectral",
+    "Hiperparámetros": "n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",
+    "Clusters": 2,
+    "Ruido": 0,
+    "ARI": 1.0,
+    "V-medida": 1.0,
+    "Silueta": 0.32744389724050826,
+    "Davies-Bouldin": 1.1558314675497603
+  },
+  {
+    "Dataset": "Circles",
+    "Algoritmo": "K-means",
+    "Hiperparámetros": "n_clusters=2, n_init=10, random_state=42",
+    "Clusters": 2,
+    "Ruido": 0,
+    "ARI": -0.0016046223301394782,
+    "V-medida": 0.00028906797830256055,
+    "Silueta": 0.32832662680124525,
+    "Davies-Bouldin": 1.221267546808435
+  },
+  {
+    "Dataset": "Circles",
+    "Algoritmo": "DBSCAN",
+    "Hiperparámetros": "eps=0.2, min_samples=5",
+    "Clusters": 2,
+    "Ruido": 0,
+    "ARI": 1.0,
+    "V-medida": 1.0,
+    "Silueta": 0.15185052272923294,
+    "Davies-Bouldin": 128.94547604203117
+  },
+  {
+    "Dataset": "Circles",
+    "Algoritmo": "Spectral",
+    "Hiperparámetros": "n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",
+    "Clusters": 2,
+    "Ruido": 0,
+    "ARI": 1.0,
+    "V-medida": 1.0,
+    "Silueta": 0.15185052272923294,
+    "Davies-Bouldin": 128.94547604203117
+  }
+]

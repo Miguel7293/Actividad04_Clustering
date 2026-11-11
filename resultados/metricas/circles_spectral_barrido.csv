@@ -1,0 +1,9 @@
+Configuración,Grafo conexo,Clusters,Ruido,Silueta,Davies-Bouldin
+"n_clusters=2, affinity=rbf, gamma=1.0",Sí,2,0,0.3279775720865315,1.2204750327281289
+"n_clusters=2, affinity=rbf, gamma=5.0",Sí,2,0,0.32871839401351294,1.2152051052898125
+"n_clusters=2, affinity=rbf, gamma=10.0",Sí,2,0,0.3273757415101567,1.2179731034211598
+"n_clusters=2, affinity=rbf, gamma=30.0",Sí,2,0,0.15185052272923294,128.94547604203117
+"n_clusters=2, affinity=rbf, gamma=100.0",Sí,2,0,0.15185052272923294,128.94547604203117
+"n_clusters=2, affinity=nearest_neighbors, n_neighbors=5",No,2,0,0.15185052272923294,128.94547604203117
+"n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",Sí,2,0,0.15185052272923294,128.94547604203117
+"n_clusters=2, affinity=nearest_neighbors, n_neighbors=15",Sí,2,0,0.15185052272923294,128.94547604203117

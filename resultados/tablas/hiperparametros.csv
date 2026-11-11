@@ -1,0 +1,10 @@
+Dataset,Algoritmo,Hiperparámetros,Clusters,Ruido
+Iris,DBSCAN,"eps=0.7, min_samples=5",2,6
+Iris,K-means,"n_clusters=3, n_init=10, random_state=42",3,0
+Iris,Spectral,"n_clusters=3, affinity=rbf, gamma=2.0",3,0
+Moons,DBSCAN,"eps=0.2, min_samples=5",2,0
+Moons,K-means,"n_clusters=2, n_init=10, random_state=42",2,0
+Moons,Spectral,"n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",2,0
+Circles,DBSCAN,"eps=0.2, min_samples=5",2,0
+Circles,K-means,"n_clusters=2, n_init=10, random_state=42",2,0
+Circles,Spectral,"n_clusters=2, affinity=nearest_neighbors, n_neighbors=10",2,0
